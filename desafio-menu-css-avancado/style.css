@@ -1,0 +1,148 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 0;
+    margin: 0 80px ;
+
+    
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;         
+}
+
+.cabecalho .logo h3 {
+    font-weight: 800;
+    transition: 0.2s;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.cabecalho .logo  h3:hover{
+    color: limegreen;
+}
+
+
+.cabecalho .cabecalho-menu  img {
+    width: 70px;
+         
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .botao {
+    background-color: limegreen;
+    border-radius: 10px;
+    width: 127px;
+    height: 39px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.2s;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+nav .botao:hover {
+    color: black;
+    font-weight: 600;
+}
+
+
+
+nav ul{
+    display: flex;
+    margin-right: 35px;
+      
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    font-size: 15px;
+    transition: 0.2s;
+       
+}
+
+
+nav ul li a:hover{
+    background-color:limegreen ;
+    color: #fff;
+    
+}
+
+@media (max-width:425px) {
+    .cabecalho { 
+        flex-direction: column;  
+    }
+
+    .cabecalho .cabecalho-menu {
+        margin-right: 10%;
+    }
+
+    .cabecalho .cabecalho-menu h3{
+        font-size: 40px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px; 
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;     
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 30px 0;    
+    }
+    
+    nav ul li a {
+        font-size: 40px;
+        padding: 10px 45px;     
+    }
+    
+    nav .botao {
+        margin-top: 70px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
